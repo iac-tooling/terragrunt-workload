@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/iac-tooling/terragrunt-workload/compare/v1.3.0...v1.4.0) (2024-12-09)
+
+
+### Features
+
+* **security-group:** add Terragrunt configuration for EKS Security Group ([e33e471](https://github.com/iac-tooling/terragrunt-workload/commit/e33e471c08c0fc90ad907fd5dca80fed0b903912))
+
 ## [1.3.0](https://github.com/iac-tooling/terragrunt-workload/compare/v1.2.0...v1.3.0) (2024-12-09)
 
 
