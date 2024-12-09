@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/iac-tooling/terragrunt-workload/compare/v1.2.0...v1.3.0) (2024-12-09)
+
+
+### Features
+
+* **vpc:** Configure VPC with eks naming ([3ee94d1](https://github.com/iac-tooling/terragrunt-workload/commit/3ee94d17417b1cf30435026a0c05e15dd64a26d1))
+
 ## [1.2.0](https://github.com/iac-tooling/terragrunt-workload/compare/v1.1.0...v1.2.0) (2024-12-08)
 
 
