@@ -1,0 +1,14 @@
+keys:
+  - aliases: ["eks/eks-node"]
+    description: "KMS key for application encryption"
+    policy_file: "app-policy.json"
+    tags:
+      Role: "App"
+      Region: "id"
+
+  - aliases: ["eks/eks-cluster"]
+    description: "KMS key for kubernetes encryption"
+    policy_file: "app-policy.json"
+    tags:
+      Role: "App"
+      Region: "id"

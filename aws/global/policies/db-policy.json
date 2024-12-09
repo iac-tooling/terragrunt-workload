@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowFullAccessToRoot",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::123456789:root"
+      },
+      "Action": "kms:*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "AllowTlgAdminGetKeyPolicy",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::123456789:user/admin"
+      },
+      "Action": [
+        "kms:GetKeyPolicy",
+        "kms:CreateKey",
+        "kms:DescribeKey",
+        "kms:TagResource",
+        "kms:DisableKey",
+        "kms:ScheduleKeyDeletion"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
