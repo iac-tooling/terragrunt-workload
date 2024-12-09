@@ -3,7 +3,7 @@ Key Management Service (KMS) Terragrunt Configuration
 =====*/
 
 terraform {
-  source = "tfr://app.terraform.io/cashenable/kms/aws//wrappers?version=2.1.0"
+  source = "tfr://terraform-aws-modules/kms/aws//wrappers?version=3.1.0"
 }
 
 # Include shared configuration
