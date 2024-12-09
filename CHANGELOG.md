@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/iac-tooling/terragrunt-workload/compare/v1.5.0...v1.6.0) (2024-12-09)
+
+
+### Features
+
+* **global-config:** add shared global Terragrunt configuration for AWS ([f1f0300](https://github.com/iac-tooling/terragrunt-workload/commit/f1f0300d7d4882f871bcb243a440de8efe6650e6))
+
 ## [1.5.0](https://github.com/iac-tooling/terragrunt-workload/compare/v1.4.0...v1.5.0) (2024-12-09)
 
 
