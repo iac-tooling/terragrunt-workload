@@ -1,0 +1,5 @@
+repositories:
+  - name: "app_repo1"
+    prefix: "app1"
+  - name: "app_repo2"
+    prefix: "app2"
